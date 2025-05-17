@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
+import React, { useState } from 'react';
 
+// 
 function MainComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
